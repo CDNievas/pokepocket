@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pokepocket"
+version = "0.1.0"
+description = ""
+authors = ["CDNievas <cdnievas@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+simple-term-menu = "^1.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
